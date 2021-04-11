@@ -1,6 +1,6 @@
-import {createGratingMessage, ManyType} from "./05";
+import {createGratingMessage, ManType} from "./05";
 
-let people: Array<ManyType> = []
+let people: Array<ManType> = []
 beforeEach( () => {
     people  = [
         {name: "Andrew Ivanov", age: 33},
@@ -8,7 +8,7 @@ beforeEach( () => {
         {name: "Dmitry Sidorov", age: 18}
     ]
 })
-test(" Should get array of grating messages", () => {
+test(" Should get array of greeting messages", () => {
     const messages = createGratingMessage(people)
     expect(messages.length).toBe(3)
     expect(messages[0]).toBe("Hello Andrew. Welcome to It-Incubator")

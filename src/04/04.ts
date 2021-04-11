@@ -1,3 +1,46 @@
+
+
+
+export type CourseType = {
+    title: string
+    price: number
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const ages = [18,20,22,1,100,90,14]
 
 const predicate = (age: number) => {
@@ -24,4 +67,4 @@ const cheapPredicate= (course:CourseType) => {
 const cheapCourses = [
     {title:"css",price:110},
     {title:"REACT",price:150}
-]
+]*/
